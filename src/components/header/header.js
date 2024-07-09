@@ -13,7 +13,7 @@ const HeaderContainer = ({ className }) => (
 			Написание кода <br />
 			Разбор ошибок
 		</Discription>
-		<ControlPanel/>
+		<ControlPanel />
 	</header>
 );
 

@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Header } from './components';
+import { Header, Footer } from './components';
 import styled from 'styled-components';
 
 const Content = styled.div`
@@ -20,7 +20,6 @@ const AppColumn = styled.div`
 	background-color: #fff;
 `;
 
-const Footer = () => <div>Футер</div>;
 
 export const Blog = () => {
 	return (
