@@ -2,34 +2,34 @@
   "users": [
     {
       "id": "001",
-      "login": "Misha",
-      "password": "1234567890",
+      "login": "misha",
+      "password": "123456",
       "registed_at": "2050-09-22",
-      "role_id": "1"
+      "role_id": 0
     },
     {
-      "login": "Ivan",
-      "password": "1234567890",
-      "registed_at": "2064-08-30 03:26",
-      "role_id": 2,
-      "id": "BZl8ci2"
+      "id": "002",
+      "login": "ivan1",
+      "password": "123456",
+      "registed_at": "2052-09-22",
+      "role_id": 1
     }
   ],
   "roles": [
     {
-      "id": "0",
+      "id": 0,
       "name": "Администратор"
     },
     {
-      "id": "1",
+      "id": 1,
       "name": "Модератор"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Читатель"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Гость"
     }
   ],
