@@ -20,6 +20,7 @@ const HeaderContainer = ({ className }) => (
 export const Header = styled(HeaderContainer)`
 	position: fixed;
 	top: 0;
+	z-index: 2;
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
