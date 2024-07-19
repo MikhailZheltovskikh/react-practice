@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { useLayoutEffect } from 'react';
 import { Header, Footer, Modal } from './components';
-import { Authorization, Registration, Users, Post, Main,  } from './pages';
+import { Authorization, Registration, Users, Post, Main } from './pages';
 import { setUser } from './action';
 import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
@@ -11,6 +11,7 @@ const Page = styled.div`
 `;
 
 const AppColumn = styled.div`
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -37,7 +38,6 @@ export const Blog = () => {
 				roleId: Number(currentUserData.roleId),
 			}),
 		);
-
 	}, [dispatch]);
 
 	return (
@@ -45,7 +45,7 @@ export const Blog = () => {
 			<Header />
 			<Page>
 				<Routes>
-					<Route path="/" element={<Main/>} />
+					<Route path="/" element={<Main />} />
 					<Route path="/login" element={<Authorization />} />
 					<Route path="/register" element={<Registration />} />
 					<Route path="/users" element={<Users />} />
@@ -56,7 +56,7 @@ export const Blog = () => {
 				</Routes>
 			</Page>
 			<Footer />
-			<Modal/>
+			<Modal />
 		</AppColumn>
 	);
 };
