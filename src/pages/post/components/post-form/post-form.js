@@ -6,6 +6,7 @@ import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { useServerRequest } from '../../../../hooks';
 import { savePostAsync } from '../../../../action';
+import { PROP_TYPE } from '../../../../constants';
 import styled from 'styled-components';
 
 const PostFormContentContainer = ({
@@ -88,3 +89,7 @@ export const PostForm = styled(PostFormContentContainer)`
 		min-height: 80px;
 	}
 `;
+
+PostForm.propTypes = {
+	post: PROP_TYPE.POST.isRequired,
+}

@@ -135,20 +135,6 @@
       "id": 5
     },
     {
-      "author_id": "001",
-      "post_id": "002",
-      "published_at": "2044-05-08 16:55",
-      "content": "124qwet",
-      "id": 6
-    },
-    {
-      "author_id": "001",
-      "post_id": "002",
-      "published_at": "2043-12-27 12:25",
-      "content": "34wtr3t4t",
-      "id": 9
-    },
-    {
       "author_id": "002",
       "post_id": "001",
       "published_at": "2035-10-02 19:50",
@@ -179,13 +165,13 @@
   ],
   "sessions": [
     {
-      "hash": "0.49998516540960857845732334681088104844093322753906",
+      "hash": "0.34760961060760919849599304143339395523071289062500",
       "user": {
-        "id": "002",
-        "login": "ivan1",
+        "id": "001",
+        "login": "misha",
         "password": "123456",
-        "registeredAt": "2052-09-22",
-        "roleId": 1
+        "registeredAt": "2050-09-22",
+        "roleId": 0
       },
       "id": 1
     }
