@@ -33,7 +33,7 @@ const SpecialPanelContainer = ({ className, id, publishedAt, editButton }) => {
 						id="fa-calendar-o"
 						size="18px"
 						margin="0 7px 0 0 "
-						inactive="true"
+						inactive={true}
 					/>
 				)}
 				{publishedAt}

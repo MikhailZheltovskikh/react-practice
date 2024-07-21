@@ -22,7 +22,7 @@ const PostCardContainer = ({
 								id="fa-calendar-o"
 								size="18px"
 								margin="0 7px 0 0 "
-								inactive="true"
+								inactive={true}
 							/>
 							{publishedAt}
 						</div>
@@ -31,7 +31,7 @@ const PostCardContainer = ({
 								id="fa-comment-o"
 								size="18px"
 								margin="0 7px 0 0 "
-								inactive="true"
+								inactive={true}
 							/>
 							{commentsCount}
 						</div>

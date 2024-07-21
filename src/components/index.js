@@ -5,5 +5,6 @@ export * from "./input/input";
 export * from "./button/button";
 export * from "./h2/h2";
 export * from "./authError/auth-error";
-export * from "./content/content";
+export * from "./privat-content/privat-content";
 export * from "./modal/modal";
+export * from "./error/error";
