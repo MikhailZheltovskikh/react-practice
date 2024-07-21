@@ -6,8 +6,8 @@ import { Comments, PostContent, PostForm } from './components';
 import { RESET_POST_DATA, loadPostAsync } from '../../action';
 import { selectPost } from '../../selectors';
 import { Error, PrivateContent } from '../../components';
-import styled from 'styled-components';
 import { ROLE } from '../../constants';
+import styled from 'styled-components';
 
 const PostContainer = ({ className }) => {
 	const [error, setError] = useState(null);
@@ -38,7 +38,6 @@ const PostContainer = ({ className }) => {
 	if (isLoading) {
 		return null;
 	}
-
 
 	const SpecificPostPage =
 		isCreating || isEditing ? (
